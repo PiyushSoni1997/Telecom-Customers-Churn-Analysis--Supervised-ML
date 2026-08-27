@@ -100,12 +100,18 @@ In churn prediction, a false negative occurs when the model predicts that a cust
 
 Improving recall helps identify a larger proportion of customers who are at risk of leaving, allowing the business to target them with retention strategies.
 
-#	Model	Accuracy	Recall	Precision	F1 Score	PR_AUC	ROC_AUC
+	Model	Accuracy	Recall	Precision	F1 Score	PR_AUC	ROC_AUC
+
 1	Logistic Regression	0.797842	0.550321	0.637717	0.590805	0.635282	0.844081
+
 2	Random Forest Classifier	0.795003	0.501071	0.646409	0.564536	0.650722	0.840096
+
 3	Extra Trees Model	0.793299	0.498929	0.641873	0.561446	0.639936	0.836416
+
 4	Gradient Boost Classifier	0.800114	0.498929	0.663818	0.569682	0.660917	0.846759
+
 5	Gaussian Naive Beyes	0.706985	0.828694	0.470231	0.600000	0.594754	0.816082
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
